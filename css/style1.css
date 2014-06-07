@@ -1,0 +1,29 @@
+html {
+	background-image: url("potbgrnd.jpg");
+	background-size: cover;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+}
+
+nav {
+	background-color:white;
+	width:100%;
+	margin:auto;
+	opacity:0.5;
+
+}
+
+ul {
+	color:teal;
+	text-align:center;
+	vertical-align: middle;
+
+}
+
+li {
+	display:inline-table;
+	margin:auto;
+	width:auto;
+	
+
+}
