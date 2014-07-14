@@ -1,13 +1,18 @@
 @ media screen and (max-width:320px) {
-	#col-md-6{
+	.col-md-6{
 		width:100%;
 	}
-	#col-md-8{
+	.col-md-8{
 		width:100%;
 	}
 	#container-fluid img{
 		width:100%;
 	}
+}
+
+.col-md-8 a:hover{
+	text-decoration: none;
+	color:;
 }
 body {
 	padding-top:100px;
@@ -43,7 +48,10 @@ img {
 	border:1px solid gray;
 	box-shadow: 0 15px 15px 15px rgba(0,0,0,0.5);
 }
-
+#aboutpgpic {
+	border:0.5px solid gray;
+	box-shadow: 0 15px 15px 15px rgba(0,0,0,0.5);
+}
 
 li {
 	width:auto;
@@ -104,7 +112,7 @@ h1 {
 h2 {
 	text-align:center;
 	vertical-align:middle;
-	color:#a1bf39;
+	color:#2f5018;
 	font-family:'Poiret One', normal;
 	margin: 0 auto;
 	font-size:50px;
@@ -112,7 +120,20 @@ h2 {
 
 h2 a:hover{
 	text-decoration:none;
+
 }
+
+
+#abpg{
+	text-decoration: none;
+	color: #2f5018;
+	font-weight:bold;
+}
+
+#emailus a:hover{
+	text-decoration: 
+}
+
 p {
 	text-align:center;
 	
@@ -135,11 +156,23 @@ p {
 	color:#a1bf39;
 }
 
-.aboutpage {
+#aboutpage {
 	text-decoration:none;
 }
 
 
+#aboutpage {
+	color:#a1bf39;
+	text-align:justify;
+}
+#aboutpage a:hover{
+	text-decoration:none;
+	color:#a1bf39;
+}
+#aboutpage a{
+	text-decoration:none;
+	color:#a1bf39;
+}
 
 .row {
 	color:#a1bf39;
@@ -158,16 +191,10 @@ p {
 	text-align:justify;
 }
 
-.aboutpage {
-	color:#a1bf39;
-	text-align:justify;
-}
 
 
-.aboutpage a:hover{
-	text-decoration:none;
-	color:#a1bf39;
-}
+
+
 
 .navbar-fixed-top {
 	position:relative;
