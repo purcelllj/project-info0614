@@ -3561,7 +3561,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .nav-pills > li {
-  float: left;
+  float: right;
 }
 .nav-pills > li > a {
   border-radius: 4px;
@@ -3739,7 +3739,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand {
   float: left;
   height: 50px;
-  padding: 15px 15px;
+  padding: 30px 30px; /*ORIGINALLY 15 AND 15*/
   font-size: 18px;
   line-height: 20px;
 }
@@ -4358,7 +4358,7 @@ a.badge:focus {
 }
 a.list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #428bca;
+  color: #a1bf39;/*#428bca*/
   background-color: #fff;
 }
 .nav-pills > li > a > .badge {

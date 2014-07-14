@@ -30,9 +30,13 @@ body {
 }
 .navbar-brand a:hover {
 	text-decoration:none;
+	box-shadow: none;
 }
 
 .nav nav-pills a:hover{
+	text-decoration:none;
+}
+a:hover {
 	text-decoration:none;
 }
 img {
@@ -40,13 +44,14 @@ img {
 	box-shadow: 0 15px 15px 15px rgba(0,0,0,0.5);
 }
 
+
 li {
 	width:auto;
 	list-style:none;
-	text-align:center;
+	text-align:right;
 	display: inline-table;
 	opacity:1;
-	vertical-align:middle;
+	vertical-align:right;
 	color:#1D4721;
 }
 
@@ -170,8 +175,8 @@ p {
 }
 
 .nav nav-pills {
-	text-align:justify;
-	margin:auto;
+	text-align:right;
+	
 }
 
 .navbar-collapse {
@@ -225,6 +230,10 @@ a:visited {
 	opacity: 0%;
 	box-shadow:none;
 }
+
+
+
+
 
 @media and screen (max-width:100%) {
     #post, .form_field_table, table, thead, tbody, tfoot, th, td, tr { display:block; }
